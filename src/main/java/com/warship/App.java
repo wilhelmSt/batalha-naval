@@ -1,13 +1,9 @@
 package com.warship;
-
-/**
- * Hello world!
- *
- */
 public class App 
 {
     public static void main( String[] args )
     {
-        System.out.println( "Hello World!" );
+        BatalhaNaval jogo = new BatalhaNaval();
+        jogo.iniciar();
     }
 }
