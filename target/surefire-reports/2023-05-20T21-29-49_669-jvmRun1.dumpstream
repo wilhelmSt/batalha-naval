@@ -1,0 +1,25 @@
+# Created at 2023-05-20T21:30:31.364
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.base/java.io.DataInputStream.readFully(DataInputStream.java:203)
+	at java.base/java.io.DataInputStream.readFully(DataInputStream.java:172)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:126)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.base/java.lang.Thread.run(Thread.java:1623)
+
+
+# Created at 2023-05-20T21:30:31.369
+Unexpected IOException with stream: Coordenada inválida. Tente novamente.
+
+
+# Created at 2023-05-20T21:30:31.370
+Unexpected IOException with stream: Informe uma coordenada: 
+
+# Created at 2023-05-20T21:30:31.379
+Unexpected IOException: 7,1,com.warship.BatalhaNavalTest,iniciarBatalhaNaval(com.warship.BatalhaNavalTest),null,No line found,null,No line found,BatalhaNavalTest.iniciarBatalhaNaval:17 \00BB NoSuchElement No line found,java.util.NoSuchElementException: No line found\000A\0009at com.warship.BatalhaNavalTest.iniciarBatalhaNaval(BatalhaNavalTest.java:17)\000A
+
+
+# Created at 2023-05-20T21:30:31.379
+Unexpected IOException: 2,1,org.apache.maven.surefire.junit4.JUnit4Provider,com.warship.BatalhaNavalTest,null,null,null
+
+

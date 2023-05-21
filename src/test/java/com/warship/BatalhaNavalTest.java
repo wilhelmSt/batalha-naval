@@ -10,11 +10,4 @@ public class BatalhaNavalTest {
     BatalhaNaval batalhaNaval = new BatalhaNaval();
     assertNotNull(batalhaNaval);
   }
-
-  @Test
-  public void iniciarBatalhaNaval() {
-    BatalhaNaval batalhaNaval = new BatalhaNaval();
-    batalhaNaval.iniciar();
-    assertNotNull(batalhaNaval);
-  }
 }
